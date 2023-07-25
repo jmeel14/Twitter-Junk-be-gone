@@ -30,7 +30,7 @@
         baseStyleSelector,
         stylesList[i],
         determineComma(stylesList, i)
-    ) + "{ display:none; }" };
-    styleElem.innerText = styleBody;
+    ) };
+    styleElem.innerText = styleBody + "{ display:none; }";
     targElem.appendChild(styleElem);
 })();
